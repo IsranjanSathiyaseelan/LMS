@@ -5,7 +5,7 @@ Database: SQL Server (via Entity Framework Core)
 
 🚀 Tech Stack
 🔹 server
-.NET 8 / ASP.NET Core Web API
+.NET 9 / ASP.NET Core Web API
 Entity Framework Core
 SQL Server
 
