@@ -21,6 +21,8 @@ Update your appsettings.json:
   "DefaultConnection": " "
 }
 
+open the server code in visual studio 2022 and run
+
 Frontend Setup (React + TypeScript)
 1️⃣ Navigate to frontend folder
 cd client
