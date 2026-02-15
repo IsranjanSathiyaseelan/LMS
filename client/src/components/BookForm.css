@@ -1,0 +1,70 @@
+/* Form Container */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #f6f6f7; /* light card */
+  border-radius: 12px;
+  font-family: 'Arial', sans-serif;
+  
+}
+
+/* Input fields */
+input {
+  padding: 12px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #4f46e5;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Placeholder text */
+input::placeholder {
+  color: #888;
+
+}
+
+/* Submit button */
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #4338ca;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  form {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
