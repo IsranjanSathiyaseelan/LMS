@@ -1,0 +1,63 @@
+/* Full viewport container to center content */
+.add-book-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical centering */
+  align-items: center;      /* horizontal centering */
+  height: 100vh;            /* full viewport height */
+  font-family: Arial, sans-serif;
+}
+
+/* The white form card */
+.add-book-form-card {
+  background-color: #fff;
+  padding: 30px 35px;
+  border-radius: 12px;
+  width: 320px;            /* fixed width for consistent form size */
+  box-sizing: border-box;
+}
+
+/* Heading */
+.add-book-form-card h2 {
+  color: #3443e5;
+  margin-bottom: 25px;
+  font-size: 26px;
+  text-align: center;
+}
+
+/* Input fields */
+.add-book-form-card input,
+.add-book-form-card textarea {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 14px;
+  border: none;
+  border-radius: 6px;
+  color: #eee;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Placeholder text */
+.add-book-form-card input::placeholder,
+.add-book-form-card textarea::placeholder {
+  color: #999;
+}
+
+/* Submit button */
+.add-book-form-card button {
+  background-color: #5446e5;
+  color: white;
+  font-weight: 700;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.add-book-form-card button:hover {
+  background-color: #3f36cc;
+}

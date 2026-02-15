@@ -1,0 +1,60 @@
+.book-item-card {
+  color: #eee;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 10px 0;
+
+  border: 1px solid black; /* Added black border */
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-item-card:hover {
+  transform: translateY(-2px);
+}
+
+/* rest of your styles unchanged */
+.book-title {
+  margin: 0 0 10px 0;
+  color: #646cff;
+}
+
+.book-author,
+.book-description {
+  margin: 5px 0;
+  color: black;
+}
+
+.book-item-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.update-btn,
+.delete-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-btn {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.update-btn:hover {
+  background-color: #4338ca;
+}
+
+.delete-btn {
+  background-color: #e54f4f;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #ca4343;
+}
